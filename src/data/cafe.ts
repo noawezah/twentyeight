@@ -62,7 +62,7 @@ export const cafe = {
       id: "cafea",
       title: "Cafea",
       subtitle: "La espressor",
-      description: "Cafeaua de specialitate stă în centrul Twenty Eight.",
+      description: "Cafea de specialitate la Twenty Eight.",
       items: ["Cafea de specialitate", "Băuturi pe bază de espresso"],
     },
     {
@@ -91,7 +91,7 @@ export const cafe = {
     { file: "doorway.jpg", title: "Dinspre Câmpineanu", caption: "Fațada pictată și mesele de lângă intrare.", alt: "Intrarea deschisă a Twenty Eight Caffee și mesele din interior" },
     { file: "lanterns.jpg", title: "Lumină prin metal", caption: "Felinare din metal perforat și sticlă colorată, pe fundal turcoaz.", alt: "Felinare luminoase suspendate în interiorul turcoaz" },
     { file: "silver-lamp.jpg", title: "Metal și sticlă", caption: "Ornamente, reflexii și inserții de sticlă colorată.", alt: "Felinar argintiu cu ornamente și sticlă colorată" },
-    { file: "embroidery.jpg", title: "Broderie florală", caption: "Fir de culoarea prunei, verde și negru.", alt: "Țesătură brodată cu motive florale în nuanțe de prună și verde" },
+    { file: "embroidery.jpg", title: "Broderie florală", caption: "Fire în nuanțe de prună, verde și negru.", alt: "Țesătură brodată cu motive florale în nuanțe de prună și verde" },
     { file: "vespa-burgundy.jpg", title: "Fațada de pe Câmpineanu", caption: "Vespa vișinie în fața florilor pictate.", alt: "Vespa vișinie în fața cafenelei cu motive florale pe fațadă" },
     { file: "vespa-pink.jpg", title: "Vespa de la terasă", caption: "Roz, crom și fațada Twenty Eight în fundal.", alt: "Vespa roz în fața terasei Twenty Eight Caffee" },
   ],

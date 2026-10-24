@@ -8,7 +8,11 @@ An inhabited room translated into a moving editorial composition. Use real suppl
 
 Small identity ornaments use an elongated hanging lantern, drawn from the café's pierced-metal fixtures. The user rejected the simple asterisk/starburst because it resembles Claude's logo. The lantern has a vertical silhouette and gentle hanging movement.
 
+Copy revised after comparison with Pebble: use the café's concrete street/material identity rather than quiet-retreat, taking-time or conversation messages. Main line: “Cafea. Felinare. Câmpineanu.” See COPY-REVIEW.md. Marketing copy, gallery captions and metadata are sourced from src/data/cafe.ts.
+
 Palette revised at the user's request: charcoal #141512 and warm orange #f2a43a lead, echoing the entrance sign. Ivory #ece3d2 and muted warm text #c3baac provide readable supporting copy. Purple #b789bd and teal #76bfb2 appear in ornamental details, annotations and interaction accents. Room, evening and footer surfaces use near-black teal/purple tones rather than large saturated panels. Orange-filled controls use charcoal text. Eczar at weight 500–600 provides distinctive ink-like serif headings, Caveat 500 genuine handwritten annotations, and Manrope compact readable details. Display emphasis stays upright instead of synthesizing an unavailable italic. The current Google Fonts Eczar and Caveat files were checked for ĂăÂâÎîȘșȚț. Brand name remains Twenty Eight Caffee; typographic wordmark is a placeholder pending the approved logo.
+
+The lighter hero wall is desktop-only (900px and wider). The large façade-inspired floral motif sits further inside the page at every breakpoint, with stronger purple/orange contrast. Phone and tablet compositions retain the ornament against a uniform charcoal ground.
 
 Dense opening with overlapping doorway and lamp photography; teal material portrait with several image scales; continuous ruled drinks ledger; one decisive street/visit composition; compact footer. No chapter numbers, category tabs, generic cards, fake ratings, food claims, reservation claims or invented prices. No forms. Romanian first.
 

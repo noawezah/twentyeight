@@ -31,7 +31,8 @@ em{font-weight:400}
 .motion-toggle{width:36px;height:36px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center}
 .header-directions{display:flex;gap:19px;align-items:center;font-size:12px;border-bottom:1px solid currentColor;padding:6px 0}
 .hero{min-height:790px;padding:75px 5% 0;isolation:isolate}
-.hero-wall{position:absolute;z-index:-1;right:0;top:0;width:30%;height:84%;background:var(--paper-deep);border-left:1px solid #19484012}
+.hero-wall{display:none;position:absolute;z-index:-1;right:0;top:0;width:30%;height:84%;background:var(--paper-deep);border-left:1px solid #19484012}
+@media(min-width:900px){.hero-wall{display:block}}
 .hero-copy{position:relative;z-index:4;width:44%;pointer-events:none}
 .hero-copy a{pointer-events:auto}
 .hero-copy>.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:29px}
@@ -73,7 +74,7 @@ em{font-weight:400}
 .motif-outer,.motif-inner{transform-origin:200px 200px}
 .motif-outer{animation:ornament-turn 100s linear infinite}
 .motif-inner{animation:ornament-turn 70s linear infinite reverse}
-.hero-pattern-scroll{position:absolute;width:470px;height:470px;right:-185px;top:-174px;color:var(--plum);--motif-secondary:var(--paper);--motif-core:var(--saffron);z-index:1;opacity:.8}
+.hero-pattern-scroll{position:absolute;width:clamp(430px,37vw,600px);height:auto;aspect-ratio:1;right:-110px;top:-130px;color:var(--plum);--motif-secondary:var(--paper);--motif-core:var(--saffron);z-index:1;opacity:.8}
 .hero-small-pattern{position:absolute;width:145px;height:145px;left:-70px;bottom:130px;color:var(--plum);--motif-secondary:var(--saffron);--motif-core:var(--paper);opacity:.65}
 .room-scene{position:relative;min-height:145svh;background:var(--teal);color:var(--paper)}
 .room-sticky{position:sticky;top:0;min-height:100svh;max-height:1050px;overflow:hidden;display:grid;grid-template-columns:38% 62%;padding:115px 5% 80px;align-items:center}
@@ -202,7 +203,8 @@ h1,h2,h3{font-weight:600;font-synthesis:none;letter-spacing:-.035em}
 .drinks-tail>span{font-style:normal;font-weight:500;letter-spacing:-.025em}
 @media(max-width:650px){.hero-title{font-size:clamp(62px,15vw,94px);line-height:1}.room-heading h2,.drinks h2,.visit-copy h2{font-size:56px;line-height:1.04}.footer-brand>span{font-size:clamp(54px,12.8vw,80px)}}
 @media(max-width:370px){.hero-title{font-size:61px}.room-heading h2,.drinks h2,.visit-copy h2{font-size:49px}.footer-brand>span{font-size:51px}}
-@media(max-width:650px){.hero-pattern-scroll{width:285px;height:285px;right:-205px;top:-140px}}
+@media(min-width:651px) and (max-width:899px){.hero-pattern-scroll{width:340px;height:340px;right:-85px;top:-110px}}
+@media(max-width:650px){.hero-pattern-scroll{width:265px;height:265px;right:-85px;top:-108px}}
 
 /* Entrance-sign palette: charcoal and orange, with interior colours in details. */
 ::selection{background:var(--orange);color:var(--surface)}
@@ -231,7 +233,7 @@ h1,h2,h3{font-weight:600;font-synthesis:none;letter-spacing:-.035em}
 .hero-main-photo,.arrival-main{box-shadow:0 20px 45px #0007;outline:1px solid #f2a43a28}
 .hero-lamp-photo,.arrival-pink{border-color:#302b25;box-shadow:0 15px 35px #0008;outline:1px solid #f2a43a35}
 .hero-photo-tape{background:#a980424d}
-.hero-pattern-scroll{color:#a273ac;--motif-secondary:var(--surface);--motif-core:var(--orange);opacity:.72}
+.hero-pattern-scroll{color:#b789bd;--motif-secondary:var(--surface);--motif-core:var(--orange);opacity:.9}
 .hero-small-pattern{color:var(--accent-teal);--motif-secondary:var(--surface);--motif-core:var(--orange);opacity:.55}
 .room-scene{background:#16221f;color:var(--text)}
 .room-texture{opacity:.16;mix-blend-mode:luminosity}
